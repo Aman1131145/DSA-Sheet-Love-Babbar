@@ -22,7 +22,7 @@ public class MaxAndMinElement {
             a[i] = sc.nextLong();
         }
         pair p = getMinMax(a, n);
-        System.out.println(p.first + " " + p.second);
+        System.out.println("min = " + p.first + ", max = " + p.second);
         sc.close();
     }
     public static pair getMinMax(long a[], long n)  
